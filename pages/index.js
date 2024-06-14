@@ -20,16 +20,16 @@ export default function Home() {
 
     return(
         <>
-        <h1>Next.js + NextAuth.js</h1>
+
         <LoginButton/>
 
     <div className="wrapper uppercase text-black font-bold">
-        <h2>
-          <span class="text">E</span>
-          <span class="text">S</span>
-          <span class="text">T</span>
-          <span class="text">B</span>
-          <span class="text">N</span>
+        <h2 className='text-[120px] pl-14'>
+          <span>E</span>
+          <span>S</span>
+          <span>T</span>
+          <span>B</span>
+          <span>N</span>
         </h2>
 
     </div>
@@ -40,20 +40,20 @@ export default function Home() {
         <Headerimage></Headerimage>
 
 
-        <div>
-
+   
+{/* 
         <Toaster/>
         <p>Aca va todo el html</p>
         <button onClick={notifySucces} className='bg-blue-500 text-white mx-4 px-8 py-2 rounded-md '>Notify</button>
         <button onClick={notifyError} className='bg-red-500 text-white mx-4 px-8 py-2 rounded-md '>Error</button>
-        <button onClick={notifyLoad} className='bg-gray-500 text-white mx-4 px-8 py-2 rounded-md '>Load</button>
+        <button onClick={notifyLoad} className='bg-gray-500 text-white mx-4 px-8 py-2 rounded-md '>Load</button> */}
 
         {/* botones por componentes */}
-        <Button onClick={notifySucces}>Notify</Button>
+        {/* <Button onClick={notifySucces}>Notify</Button>
         <br/>
         <Button onClick={notifyError}>NotifyBad</Button>
 
-        </div>
+  */}
 
 
 
