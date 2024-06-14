@@ -24,7 +24,7 @@ export default function Test() {
             message: "a ver si tan estudiado",
         };
         await axios.post ("/api/mail", data);
-        toast,success("Email sent");
+        toast.success("Email sent");
     };
 
 
