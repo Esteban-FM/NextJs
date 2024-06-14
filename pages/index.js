@@ -1,6 +1,7 @@
 import toast, { Toaster } from 'react-hot-toast';
 import Button from '@/components/Button';
 import Image from 'next/image';
+
 // LogIn Button
 import LoginButton from '@/components/LoginButton';
 
@@ -9,7 +10,7 @@ import Headerimage from '@/components/header';
 import Mano from '@/components/Mano';
 import Pruebaheader from '@/public/prueba.png'
 
-export default function Demo() {
+export default function Home() {
     //logica de la pagina en js
     const notifySucces = () => toast.success('Hello, world!');
     const notifyError = () => toast.error('Error!');
@@ -30,15 +31,15 @@ export default function Demo() {
           <span class="text">B</span>
           <span class="text">N</span>
         </h2>
-     
+
     </div>
 
-    
+
 
         <Mano></Mano>
         <Headerimage></Headerimage>
 
- 
+
         <div>
 
         <Toaster/>
@@ -46,7 +47,7 @@ export default function Demo() {
         <button onClick={notifySucces} className='bg-blue-500 text-white mx-4 px-8 py-2 rounded-md '>Notify</button>
         <button onClick={notifyError} className='bg-red-500 text-white mx-4 px-8 py-2 rounded-md '>Error</button>
         <button onClick={notifyLoad} className='bg-gray-500 text-white mx-4 px-8 py-2 rounded-md '>Load</button>
-         
+
         {/* botones por componentes */}
         <Button onClick={notifySucces}>Notify</Button>
         <br/>
