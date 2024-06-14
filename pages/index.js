@@ -2,6 +2,8 @@ import toast, { Toaster } from 'react-hot-toast';
 import Button from '@/components/Button';
 import Image from 'next/image';
 
+
+
 // LogIn Button
 import LoginButton from '@/components/LoginButton';
 
@@ -15,6 +17,7 @@ export default function Home() {
     const notifySucces = () => toast.success('Hello, world!');
     const notifyError = () => toast.error('Error!');
     const notifyLoad = () => toast.loading('Loading!');
+    const loginBtn = () => LoginButton();
 
 
 
@@ -24,20 +27,24 @@ export default function Home() {
         <LoginButton/>
 
     <div className="wrapper uppercase text-black font-bold">
-        <h2 className='text-[120px] pl-14'>
+        <h2 className='text-[180px] pl-24 -mt-9 tracking-wide'>
           <span>E</span>
           <span>S</span>
           <span>T</span>
           <span>B</span>
-          <span>N</span>
         </h2>
+
+
 
     </div>
 
 
+      <div>
 
-        <Mano></Mano>
-        <Headerimage></Headerimage>
+        <Mano/>
+      </div>
+        <Headerimage/>
+   
 
 
    
