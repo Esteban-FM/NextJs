@@ -6,6 +6,7 @@ import React from 'react';
 // LogIn Button
 import LoginButton from '@/components/LoginButton';
 import Line from '@/components/Line';
+import Logbutton from '@/components/Logbutton'
 
 import Headerimage from '@/components/header';
 import Mano from '@/components/Mano';
@@ -15,6 +16,8 @@ import Buttonsend from '@/components/Buttonsend';
 import { Typography } from "@material-tailwind/react";
 import Link from 'next/link';
 
+
+import Slider from 'react-infinite-logo-slider'
 
 
 export default function Home() {
@@ -31,6 +34,8 @@ export default function Home() {
 
             <main class="w-full flex flex-col  gap-4 md:gap-36 mx-auto px-4 md:px-20 py-8 relative">
 
+
+
             <div className="navbar bg-base-100  -mb-20">
             <div className="navbar-start">
     
@@ -39,11 +44,14 @@ export default function Home() {
 
 
 
-            <div className="bg-black rounded-full px-8 py-1 text-white border-white hover:bg-white hover:border-black hover:text-black  relative navbar-end">
-                <LoginButton className=""/>
+
+            <div className=" bg-black rounded-full px-8 py-1 text-white border-white hover:bg-white hover:border-black hover:text-black  relative navbar-end">
+                <Logbutton className=""/>
                 {/* <a className="btn">Button</a> */}
             </div>
             </div>
+
+         
 
             <section>
             <div className="absolute wrapper uppercase text-black font-bold">
@@ -65,6 +73,26 @@ export default function Home() {
                 <img src="https://res.cloudinary.com/dlme773n7/image/upload/v1718377439/img-azul_ybyp8r.jpg" />
             </div>
             </section>
+
+
+
+
+
+
+
+
+
+            <div className='absolute mt-32 flex-1 flex-wrap grid grid-cols-12 items-center gap-4'>
+              <div className='col-span-1 col-start-12'>
+              <Logbutton/>
+              </div>
+            </div>
+
+
+
+
+
+
 
 
 

@@ -12,6 +12,7 @@ import Mano from '@/components/Mano';
 
 import { Typography } from "@material-tailwind/react";
 
+import Slider from 'react-infinite-logo-slider'
 
 
 export default function Home() {
@@ -116,10 +117,6 @@ export default function Home() {
 
           
         </div>
-
-
-
-
 
 
 

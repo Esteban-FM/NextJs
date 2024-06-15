@@ -6,7 +6,7 @@ export default function LoginButton() {
     return (
       <>
         Signed in as {session.user.email} <br />\
-        <img src={session.user.image} alt={session.user.name}/>
+        <img className="" src={session.user.image} alt={session.user.name}/>
         <br/>
         <p>{session.user.name}</p>
         <button onClick={() => signOut()}>Sign out</button>
