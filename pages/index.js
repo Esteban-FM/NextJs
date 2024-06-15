@@ -3,14 +3,13 @@ import Button from '@/components/Button';
 import Image from 'next/image';
 
 
-
 // LogIn Button
 import LoginButton from '@/components/LoginButton';
 
 
+
 import Headerimage from '@/components/header';
 import Mano from '@/components/Mano';
-import Pruebaheader from '@/public/prueba.png'
 
 export default function Home() {
     //logica de la pagina en js
@@ -23,11 +22,13 @@ export default function Home() {
 
     return(
         <>
+{/* 
+        <LoginButton/> */}
+ <main className='container mx-auto'>
 
-        <LoginButton/>
 
     <div className="wrapper uppercase text-black font-bold">
-        <h2 className='text-[180px] pl-24 -mt-9 tracking-wide'>
+        <h2 className='text-[110px] pl-5 -mt-1 tracking-wider'>
           <span>E</span>
           <span>S</span>
           <span>T</span>
@@ -39,12 +40,10 @@ export default function Home() {
     </div>
 
 
-      <div>
-
-        <Mano/>
-      </div>
         <Headerimage/>
+        <Mano/>
    
+
 
 
    
@@ -65,7 +64,7 @@ export default function Home() {
 
 
 
-
+</main>
         </>
     )
 }

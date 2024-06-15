@@ -19,9 +19,9 @@ export default function Test() {
 
     const sendEmail = async () => {
         const data = {
-            name: "Esteban FM",
-            email: "esteban.fsma@gmail.com",
-            message: "a ver si tan estudiado",
+            "name": "Esteban FM",
+            "email": "esteban.fsma@gmail.com",
+            "message": "a ver si tan estudiado",
         };
         await axios.post ("/api/mail", data);
         toast.success("Email sent");
