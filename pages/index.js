@@ -65,6 +65,8 @@ export default function Home() {
                 <span>B</span>
                 </h2>
             </div> 
+
+            
             
             <div className="hero min-h-screen -pl-32 -mt-32 absolute ">
                 <img src="https://res.cloudinary.com/dlme773n7/image/upload/v1718377646/dx22_qk0dzs.png" />
@@ -80,13 +82,6 @@ export default function Home() {
 
 
 
-
-
-            <div className='absolute mt-32 flex-1 flex-wrap grid grid-cols-12 items-center gap-4'>
-              <div className='col-span-1 col-start-12'>
-              <Logbutton/>
-              </div>
-            </div>
 
 
 
