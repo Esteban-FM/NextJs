@@ -55,7 +55,7 @@ export default function Home() {
 
             <section>
             <div className="absolute wrapper uppercase text-black font-bold">
-                <h2 className='text-[180px] pl-80 -mt-24 tracking-tight'>
+                <h2 className='text-[180px] pl-36 -mt-28 tracking-tight'>
                 <span>E</span>
                 <span> </span>
                 <span>S</span>
@@ -66,10 +66,10 @@ export default function Home() {
                 </h2>
             </div> 
             
-            <div className="hero min-h-screen -pl-32 -mt-28 absolute ">
+            <div className="hero min-h-screen -pl-32 -mt-32 absolute ">
                 <img src="https://res.cloudinary.com/dlme773n7/image/upload/v1718377646/dx22_qk0dzs.png" />
             </div>
-            <div className=" hero min-h-screen -mt-20 ">
+            <div className=" hero min-h-screen -mt-30 ">
                 <img src="https://res.cloudinary.com/dlme773n7/image/upload/v1718377439/img-azul_ybyp8r.jpg" />
             </div>
             </section>
@@ -145,12 +145,18 @@ export default function Home() {
         <br/>
 
 
-    <div className=' mt-60  -mb-96 flex-1 flex-wrap grid grid-cols-6 items-center gap-4'>
+    <div className=' mt-56  -mb-72 flex-1 flex-wrap grid grid-cols-6 items-center gap-4'>
         <div className='col-span-7 col-start-2 '>
 
         <Buttonsend></Buttonsend>
         </div>
         </div>
+
+        
+
+
+      {/* <button className='mt-56  -mb-72  bg-black hover:bg-white  hover:text-white  h-32 text-black font-semibold mx-8 px-8 py-2 rounded-xl'/>
+ */}
 
 
         <section>
@@ -198,6 +204,8 @@ export default function Home() {
                 </section>    
 
     <div className='-mt-32'> <Line /></div>
+
+
 
 
 <footer className="footer footer-center -mt-32 p-4  text-base-content">
