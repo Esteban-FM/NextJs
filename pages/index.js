@@ -6,10 +6,14 @@ import Image from 'next/image';
 // LogIn Button
 import LoginButton from '@/components/LoginButton';
 
-
-
+import Line from '@/components/Line';
 import Headerimage from '@/components/header';
 import Mano from '@/components/Mano';
+
+
+import { Typography } from "@material-tailwind/react";
+
+
 
 export default function Home() {
     //logica de la pagina en js
@@ -27,7 +31,22 @@ export default function Home() {
  <main className='container mx-auto'>
 
 
-    <div className="wrapper uppercase text-black font-bold">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {/* <div className="wrapper uppercase text-black font-bold">
         <h2 className='text-[110px] pl-5 -mt-1 tracking-wider'>
           <span>E</span>
           <span>S</span>
@@ -37,16 +56,19 @@ export default function Home() {
 
 
 
-    </div>
+    </div> */}
 
 
-        <Headerimage/>
+        {/* <Headerimage/>
         <Mano/>
-   
+    */}
+
+{/* 
+        <Line/>
+    */}
 
 
 
-   
 {/* 
         <Toaster/>
         <p>Aca va todo el html</p>
