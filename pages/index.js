@@ -45,13 +45,28 @@ export default function Home() {
 
 
 
-            <div className=" bg-black rounded-full px-8 py-1 text-white border-white hover:bg-white hover:border-black hover:text-black  relative navbar-end">
+            <div className=" bg-black rounded-full mb-12 px-8 py-1 text-white border-white hover:bg-white hover:border-black hover:text-black  relative navbar-end">
                 <Logbutton className=""/>
                 {/* <a className="btn">Button</a> */}
             </div>
             </div>
 
          
+
+            {/* <section>
+            <div className="absolute wrapper uppercase text-black font-bold">
+                <h2 className='text-[180px] pl-36 -mt-28 tracking-tight'>
+                <span>E</span>
+                <span> </span>
+                <span>S</span>
+                <span> </span>
+                <span>T</span>
+                <span> </span>
+                <span>B</span>
+                </h2>
+
+            </div> 
+          */}
 
             <section>
             <div className="absolute wrapper uppercase text-black font-bold">
@@ -64,6 +79,18 @@ export default function Home() {
                 <span> </span>
                 <span>B</span>
                 </h2>
+
+            </div> 
+            
+            <div className="absolute wrapper  pl-96  text-black font-semibold">
+                <div className='text-[70px] pl-96 -mt-44 tracking-tight'>
+                <span> </span>
+                <span className='whitespace-nowrap'>. </span>
+                <h2 className='whitespace-nowrap pl-44'>segundo</h2>
+                {' '}
+                <h2 class="whitespace-pre -mt-10 pl-60">modulo</h2>
+                </div>
+
             </div> 
 
             
@@ -140,8 +167,8 @@ export default function Home() {
         <br/>
 
 
-    <div className=' mt-56  -mb-72 flex-1 flex-wrap grid grid-cols-6 items-center gap-4'>
-        <div className='col-span-7 col-start-2 '>
+        <div className=' -mb-28 flex-1 flex-wrap grid grid-cols-6 items-center gap-4'>
+        <div className='col-span-7 col-start-1 '>
 
         <Buttonsend></Buttonsend>
         </div>
@@ -155,14 +182,32 @@ export default function Home() {
 
 
         <section>
-        <div className="hero min-h-screen -pl-32 -mt-72 absolute ">
+
+{/* send */}
+        <div className="hero min-h-screen -pl-32 -mt-80 absolute ">
                 <img src=" https://res.cloudinary.com/dlme773n7/image/upload/v1718453459/sendtext_fdjv11.png" />
             </div>
           
-        <div className="hero min-h-screen -pl-32 -mt-96 absolute ">
-                <img src="  https://res.cloudinary.com/dlme773n7/image/upload/v1718450743/answer_fcktrt.png" />
+{/* answer */}
+        <div className="hero min-h-screen pr-20 -mt-48 absolute ">
+                <img className='' src="https://res.cloudinary.com/dlme773n7/image/upload/v1718523123/dbdj_skmupu.png" />
+            </div>
+
+{/* mano */}
+        <div className="hero min-h-screen pr-56 -mt-60 absolute ">
+          <div className='pr-96'>
+                <img className='pr-96' src="https://res.cloudinary.com/dlme773n7/image/upload/v1718523125/kj_aawy1d.png" />
+                </div >
             </div>
           
+
+     
+          
+          
+        {/* <div className="hero min-h-screen -pl-32 -mt-96 absolute ">
+                <img src="  https://res.cloudinary.com/dlme773n7/image/upload/v1718450743/answer_fcktrt.png" />
+            </div>
+           */}
 
      
 
@@ -170,8 +215,6 @@ export default function Home() {
                 <img src="https://res.cloudinary.com/dlme773n7/image/upload/v1718450727/do_rhpf3k.png" />
             </div>
         </section>
-
-
 
 
 
