@@ -36,7 +36,7 @@ export default function Home() {
 
 
 
-            <div className="navbar bg-base-100  -mb-20">
+            <div className="navbar  -mb-20">
             <div className="navbar-start">
     
                 <a className="btn btn-ghost text-xl">NextJs</a>
