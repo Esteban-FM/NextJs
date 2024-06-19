@@ -239,7 +239,7 @@ export default function Home() {
                     <div className=" col-span-1 col-start-4">
                         <a className="uppercase font-bold text-6xl  hover:text-yellow-300" href="mailto:esteban.fsma@gmail.com">@email</a>
                     </div>
-                </section>    
+                </section>
 
     <div className='-mt-32'> <Line /></div>
 
